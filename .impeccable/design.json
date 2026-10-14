@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T20:50:05.352566+00:00",
+  "title": "Design System: cquiz",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#172b4d",
+        "tonalRamp": [
+          "oklch(15.00% 0.06756 260.37)",
+          "oklch(26.43% 0.06756 260.37)",
+          "oklch(37.86% 0.06756 260.37)",
+          "oklch(49.29% 0.06756 260.37)",
+          "oklch(60.71% 0.06756 260.37)",
+          "oklch(72.14% 0.06756 260.37)",
+          "oklch(83.57% 0.06756 260.37)",
+          "oklch(95.00% 0.06756 260.37)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#52627a",
+        "tonalRamp": [
+          "oklch(15.00% 0.04339 258.35)",
+          "oklch(26.43% 0.04339 258.35)",
+          "oklch(37.86% 0.04339 258.35)",
+          "oklch(49.29% 0.04339 258.35)",
+          "oklch(60.71% 0.04339 258.35)",
+          "oklch(72.14% 0.04339 258.35)",
+          "oklch(83.57% 0.04339 258.35)",
+          "oklch(95.00% 0.04339 258.35)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "#f2f5f9",
+        "tonalRamp": [
+          "oklch(15.00% 0.00624 255.47)",
+          "oklch(26.43% 0.00624 255.47)",
+          "oklch(37.86% 0.00624 255.47)",
+          "oklch(49.29% 0.00624 255.47)",
+          "oklch(60.71% 0.00624 255.47)",
+          "oklch(72.14% 0.00624 255.47)",
+          "oklch(83.57% 0.00624 255.47)",
+          "oklch(95.00% 0.00624 255.47)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Blue",
+        "canonical": "#234d91",
+        "tonalRamp": [
+          "oklch(15.00% 0.12182 259.64)",
+          "oklch(26.43% 0.12182 259.64)",
+          "oklch(37.86% 0.12182 259.64)",
+          "oklch(49.29% 0.12182 259.64)",
+          "oklch(60.71% 0.12182 259.64)",
+          "oklch(72.14% 0.12182 259.64)",
+          "oklch(83.57% 0.12182 259.64)",
+          "oklch(95.00% 0.12182 259.64)"
+        ]
+      },
+      "blue-deep": {
+        "role": "primary",
+        "displayName": "Blue Deep",
+        "canonical": "#173b75",
+        "tonalRamp": [
+          "oklch(15.00% 0.10800 259.62)",
+          "oklch(26.43% 0.10800 259.62)",
+          "oklch(37.86% 0.10800 259.62)",
+          "oklch(49.29% 0.10800 259.62)",
+          "oklch(60.71% 0.10800 259.62)",
+          "oklch(72.14% 0.10800 259.62)",
+          "oklch(83.57% 0.10800 259.62)",
+          "oklch(95.00% 0.10800 259.62)"
+        ]
+      },
+      "blue-soft": {
+        "role": "primary",
+        "displayName": "Blue Soft",
+        "canonical": "#e9f0fb",
+        "tonalRamp": [
+          "oklch(15.00% 0.01660 259.42)",
+          "oklch(26.43% 0.01660 259.42)",
+          "oklch(37.86% 0.01660 259.42)",
+          "oklch(49.29% 0.01660 259.42)",
+          "oklch(60.71% 0.01660 259.42)",
+          "oklch(72.14% 0.01660 259.42)",
+          "oklch(83.57% 0.01660 259.42)",
+          "oklch(95.00% 0.01660 259.42)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "canonical": "#bd4a00",
+        "tonalRamp": [
+          "oklch(15.00% 0.16270 43.68)",
+          "oklch(26.43% 0.16270 43.68)",
+          "oklch(37.86% 0.16270 43.68)",
+          "oklch(49.29% 0.16270 43.68)",
+          "oklch(60.71% 0.16270 43.68)",
+          "oklch(72.14% 0.16270 43.68)",
+          "oklch(83.57% 0.16270 43.68)",
+          "oklch(95.00% 0.16270 43.68)"
+        ]
+      },
+      "accent-deep": {
+        "role": "primary",
+        "displayName": "Accent Deep",
+        "canonical": "#963b00",
+        "tonalRamp": [
+          "oklch(15.00% 0.13556 44.68)",
+          "oklch(26.43% 0.13556 44.68)",
+          "oklch(37.86% 0.13556 44.68)",
+          "oklch(49.29% 0.13556 44.68)",
+          "oklch(60.71% 0.13556 44.68)",
+          "oklch(72.14% 0.13556 44.68)",
+          "oklch(83.57% 0.13556 44.68)",
+          "oklch(95.00% 0.13556 44.68)"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Accent Soft",
+        "canonical": "#fff0e5",
+        "tonalRamp": [
+          "oklch(15.00% 0.02190 58.79)",
+          "oklch(26.43% 0.02190 58.79)",
+          "oklch(37.86% 0.02190 58.79)",
+          "oklch(49.29% 0.02190 58.79)",
+          "oklch(60.71% 0.02190 58.79)",
+          "oklch(72.14% 0.02190 58.79)",
+          "oklch(83.57% 0.02190 58.79)",
+          "oklch(95.00% 0.02190 58.79)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#c3ccda",
+        "tonalRamp": [
+          "oklch(15.00% 0.02186 259.19)",
+          "oklch(26.43% 0.02186 259.19)",
+          "oklch(37.86% 0.02186 259.19)",
+          "oklch(49.29% 0.02186 259.19)",
+          "oklch(60.71% 0.02186 259.19)",
+          "oklch(72.14% 0.02186 259.19)",
+          "oklch(83.57% 0.02186 259.19)",
+          "oklch(95.00% 0.02186 259.19)"
+        ]
+      },
+      "success": {
+        "role": "neutral",
+        "displayName": "Success",
+        "canonical": "#166044",
+        "tonalRamp": [
+          "oklch(15.00% 0.08487 163.03)",
+          "oklch(26.43% 0.08487 163.03)",
+          "oklch(37.86% 0.08487 163.03)",
+          "oklch(49.29% 0.08487 163.03)",
+          "oklch(60.71% 0.08487 163.03)",
+          "oklch(72.14% 0.08487 163.03)",
+          "oklch(83.57% 0.08487 163.03)",
+          "oklch(95.00% 0.08487 163.03)"
+        ]
+      },
+      "success-soft": {
+        "role": "neutral",
+        "displayName": "Success Soft",
+        "canonical": "#e9f6ef",
+        "tonalRamp": [
+          "oklch(15.00% 0.01654 162.75)",
+          "oklch(26.43% 0.01654 162.75)",
+          "oklch(37.86% 0.01654 162.75)",
+          "oklch(49.29% 0.01654 162.75)",
+          "oklch(60.71% 0.01654 162.75)",
+          "oklch(72.14% 0.01654 162.75)",
+          "oklch(83.57% 0.01654 162.75)",
+          "oklch(95.00% 0.01654 162.75)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error",
+        "canonical": "#a32637",
+        "tonalRamp": [
+          "oklch(15.00% 0.16014 18.71)",
+          "oklch(26.43% 0.16014 18.71)",
+          "oklch(37.86% 0.16014 18.71)",
+          "oklch(49.29% 0.16014 18.71)",
+          "oklch(60.71% 0.16014 18.71)",
+          "oklch(72.14% 0.16014 18.71)",
+          "oklch(83.57% 0.16014 18.71)",
+          "oklch(95.00% 0.16014 18.71)"
+        ]
+      },
+      "error-soft": {
+        "role": "neutral",
+        "displayName": "Error Soft",
+        "canonical": "#fff0f2",
+        "tonalRamp": [
+          "oklch(15.00% 0.01640 8.16)",
+          "oklch(26.43% 0.01640 8.16)",
+          "oklch(37.86% 0.01640 8.16)",
+          "oklch(49.29% 0.01640 8.16)",
+          "oklch(60.71% 0.01640 8.16)",
+          "oklch(72.14% 0.01640 8.16)",
+          "oklch(83.57% 0.01640 8.16)",
+          "oklch(95.00% 0.01640 8.16)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "canonical": "#0055bb",
+        "tonalRamp": [
+          "oklch(15.00% 0.17565 258.13)",
+          "oklch(26.43% 0.17565 258.13)",
+          "oklch(37.86% 0.17565 258.13)",
+          "oklch(49.29% 0.17565 258.13)",
+          "oklch(60.71% 0.17565 258.13)",
+          "oklch(72.14% 0.17565 258.13)",
+          "oklch(83.57% 0.17565 258.13)",
+          "oklch(95.00% 0.17565 258.13)"
+        ]
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "state-duration",
+        "value": "180ms",
+        "purpose": "Control state feedback."
+      },
+      {
+        "name": "state-easing",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Shipped feedback easing; reduced motion removes transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "640px"
+      },
+      {
+        "name": "rail",
+        "value": "960px"
+      },
+      {
+        "name": "compact",
+        "value": "1190px"
+      },
+      {
+        "name": "wide",
+        "value": "1440px"
+      }
+    ],
+    "focus": {
+      "value": "3px solid var(--focus)",
+      "offset": "3px",
+      "purpose": "Keyboard interaction focus; radio wrappers use 2px offset."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary Button with hover, focus, active and disabled states.",
+      "html": "<button class=\"ds-btn-primary\">Save changes</button>",
+      "css": ".ds-btn-primary{font-family:var(--font);font-size:var(--base);font-weight:600;line-height:24px;min-height:48px;padding:var(--s2) var(--s3);border:1px solid transparent;border-radius:var(--r2);cursor:pointer;transition:background-color var(--motion) var(--ease),transform var(--motion) var(--ease);background:var(--blue);color:var(--surface);border-color:transparent;}.ds-btn-primary:hover:not(:disabled){background:var(--blue-deep);}.ds-btn-primary:active:not(:disabled){transform:translateY(1px)}.ds-btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-btn-primary:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Turn Button",
+      "kind": "button",
+      "refersTo": "button-turn",
+      "description": "Turn Button with hover, focus, active and disabled states.",
+      "html": "<button class=\"ds-btn-turn\">Finish contribution</button>",
+      "css": ".ds-btn-turn{font-family:var(--font);font-size:var(--base);font-weight:600;line-height:24px;min-height:48px;padding:var(--s2) var(--s3);border:1px solid transparent;border-radius:var(--r2);cursor:pointer;transition:background-color var(--motion) var(--ease),transform var(--motion) var(--ease);background:var(--accent);color:var(--surface);border-color:transparent;}.ds-btn-turn:hover:not(:disabled){background:var(--accent-deep);}.ds-btn-turn:active:not(:disabled){transform:translateY(1px)}.ds-btn-turn:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-btn-turn:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary Button with hover, focus, active and disabled states.",
+      "html": "<button class=\"ds-btn-secondary\">Save changes</button>",
+      "css": ".ds-btn-secondary{font-family:var(--font);font-size:var(--base);font-weight:600;line-height:24px;min-height:48px;padding:var(--s2) var(--s3);border:1px solid transparent;border-radius:var(--r2);cursor:pointer;transition:background-color var(--motion) var(--ease),transform var(--motion) var(--ease);background:var(--surface);color:var(--ink);border-color:var(--line);}.ds-btn-secondary:hover:not(:disabled){background:var(--blue-soft);}.ds-btn-secondary:active:not(:disabled){transform:translateY(1px)}.ds-btn-secondary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-btn-secondary:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "description": "Ghost Button with hover, focus, active and disabled states.",
+      "html": "<button class=\"ds-btn-ghost\">Save changes</button>",
+      "css": ".ds-btn-ghost{font-family:var(--font);font-size:var(--base);font-weight:600;line-height:24px;min-height:48px;padding:var(--s2) var(--s3);border:1px solid transparent;border-radius:var(--r2);cursor:pointer;transition:background-color var(--motion) var(--ease),transform var(--motion) var(--ease);background:transparent;color:var(--blue);border-color:transparent;}.ds-btn-ghost:hover:not(:disabled){background:var(--blue-soft);}.ds-btn-ghost:active:not(:disabled){transform:translateY(1px)}.ds-btn-ghost:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-btn-ghost:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labeled roster and configuration input.",
+      "html": "<label class=\"ds-field\">School email<input type=\"email\" placeholder=\"student@school.edu\"></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:var(--s2);font-family:var(--font);font-size:var(--sm);font-weight:600}.ds-field input{font:inherit;font-weight:400;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--r2);padding:var(--s3);min-height:48px;caret-color:var(--blue)}.ds-field input::placeholder{color:var(--muted)}.ds-field input:hover{border-color:var(--muted)}.ds-field input:focus{border-color:var(--focus)}.ds-field input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Instructor Navigation",
+      "kind": "nav",
+      "description": "Selected and available instructor tasks.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Instructor preview\"><button aria-current=\"page\">Preparation</button><button>Exam room</button><button>Standings</button></nav>",
+      "css": ".ds-nav{display:flex;flex-direction:column;gap:var(--s2)}.ds-nav button{font-family:var(--font);font-size:var(--sm);font-weight:600;min-height:48px;padding:var(--s3);border:0;border-radius:var(--r2);text-align:left;color:var(--muted);background:transparent;cursor:pointer}.ds-nav button[aria-current]{color:var(--blue-deep);background:var(--blue-soft)}.ds-nav button:hover{background:var(--ground)}.ds-nav button:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Status Badge",
+      "kind": "chip",
+      "description": "Compact status without an unnecessary interaction.",
+      "html": "<span class=\"ds-badge\">Rehearsal</span>",
+      "css": ".ds-badge{display:inline-flex;padding:var(--s1) var(--s2);font-family:var(--font);font-size:var(--xs);font-weight:600;line-height:16px;background:var(--ground);color:var(--muted);border-radius:var(--pill)}"
+    },
+    {
+      "name": "Panel",
+      "kind": "card",
+      "description": "Flat tonal grouping for instructor content.",
+      "html": "<section class=\"ds-panel\"><h3>Question bank</h3><p>One row per weighted insight.</p></section>",
+      "css": ".ds-panel{font-family:var(--font);padding:var(--s5);background:var(--surface);border-radius:var(--r3);color:var(--ink)}.ds-panel h3{font-size:var(--lg);line-height:28px;margin:0 0 var(--s2);font-weight:700;letter-spacing:-.025em}.ds-panel p{font-size:var(--sm);line-height:24px;color:var(--muted);margin:0}"
+    },
+    {
+      "name": "Peer Rating",
+      "kind": "custom",
+      "description": "Five private agreement choices with native radio semantics.",
+      "html": "<fieldset class=\"ds-rating\"><legend>The person speaking knows exactly what they are talking about</legend><div><label><input type=\"radio\" name=\"example-rating\" value=\"1\"><span>1</span></label><label><input type=\"radio\" name=\"example-rating\" value=\"2\"><span>2</span></label><label><input type=\"radio\" name=\"example-rating\" value=\"3\"><span>3</span></label><label><input type=\"radio\" name=\"example-rating\" value=\"4\"><span>4</span></label><label><input type=\"radio\" name=\"example-rating\" value=\"5\"><span>5</span></label></div><p><span>Strongly disagree</span><span>Strongly agree</span></p></fieldset>",
+      "css": ".ds-rating{font-family:var(--font);border:0;padding:0;margin:0;color:var(--ink)}.ds-rating legend{font-size:var(--sm);line-height:20px;padding:0;margin-bottom:var(--s3)}.ds-rating>div{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s2)}.ds-rating label{position:relative;display:grid;place-items:center;min-height:48px;background:var(--ground);border:1px solid var(--line);border-radius:var(--r2);cursor:pointer}.ds-rating input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}.ds-rating label:has(input:checked){background:var(--blue);color:var(--surface);border-color:var(--blue)}.ds-rating label:focus-within{outline:3px solid var(--focus);outline-offset:2px}.ds-rating label:hover{border-color:var(--blue)}.ds-rating span{font-weight:600}.ds-rating p{display:flex;justify-content:space-between;gap:var(--s3);font-size:var(--xs);line-height:16px;color:var(--muted);margin:var(--s2) 0 0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Conversation Floor",
+    "overview": "The Conversation Floor keeps attention on the person contributing and the question being explored. White surfaces, deep blue text, and orange turn controls create a bright classroom interface. The instructor console uses compact navigation and readable evidence rather than theatrical game-show decoration.",
+    "keyCharacteristics": [
+      "One primary student task at a time.",
+      "Flat tonal surfaces and clear interaction states.",
+      "A compact desktop console with mobile reflow."
+    ],
+    "rules": [
+      {
+        "name": "The Floor Rule",
+        "body": "Orange identifies active contribution; blue identifies administrative actions.",
+        "section": "colors"
+      },
+      {
+        "name": "The Single Voice Rule",
+        "body": "Use self-hosted Manrope for every type role; scale and weight establish hierarchy.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Use tonal surfaces and spacing for depth; the shipped interface has no decorative shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the current question and speaker visually primary.",
+      "Do pair semantic colors with explicit status text.",
+      "Do preserve visible keyboard focus and native radio semantics.",
+      "Do identify synthetic rehearsal evidence explicitly.",
+      "Do label histogram score ranges and student counts."
+    ],
+    "donts": [
+      "Don't expose rankings or answer rubrics on student screens.",
+      "Don't replace meaningful headings with topic or destination eyebrows.",
+      "Don't add decorative entrance animation or game-show noise.",
+      "Don't render a nonzero bar for an empty score bin."
+    ]
+  }
+}

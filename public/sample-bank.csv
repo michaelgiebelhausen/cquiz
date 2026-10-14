@@ -1,0 +1,49 @@
+question_id,topic,prompt,insight_id,ideal_insight,weight,grading_guidance,source_reference,difficulty
+q1,Prompt structure,Give your top insider tip about prompt structure in situation 1.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q1,Prompt structure,Give your top insider tip about prompt structure in situation 1.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q1,Prompt structure,Give your top insider tip about prompt structure in situation 1.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q1,Prompt structure,Give your top insider tip about prompt structure in situation 1.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q2,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 2.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q2,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 2.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q2,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 2.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q2,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 2.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q3,Model limits,Give your top insider tip about model limits in situation 3.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q3,Model limits,Give your top insider tip about model limits in situation 3.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q3,Model limits,Give your top insider tip about model limits in situation 3.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q3,Model limits,Give your top insider tip about model limits in situation 3.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q4,Tool use,Give your top insider tip about tool use in situation 4.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q4,Tool use,Give your top insider tip about tool use in situation 4.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q4,Tool use,Give your top insider tip about tool use in situation 4.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q4,Tool use,Give your top insider tip about tool use in situation 4.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q5,Prompt structure,Give your top insider tip about prompt structure in situation 5.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q5,Prompt structure,Give your top insider tip about prompt structure in situation 5.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q5,Prompt structure,Give your top insider tip about prompt structure in situation 5.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q5,Prompt structure,Give your top insider tip about prompt structure in situation 5.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q6,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 6.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q6,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 6.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q6,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 6.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q6,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 6.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q7,Model limits,Give your top insider tip about model limits in situation 7.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q7,Model limits,Give your top insider tip about model limits in situation 7.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q7,Model limits,Give your top insider tip about model limits in situation 7.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q7,Model limits,Give your top insider tip about model limits in situation 7.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q8,Tool use,Give your top insider tip about tool use in situation 8.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q8,Tool use,Give your top insider tip about tool use in situation 8.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q8,Tool use,Give your top insider tip about tool use in situation 8.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q8,Tool use,Give your top insider tip about tool use in situation 8.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q9,Prompt structure,Give your top insider tip about prompt structure in situation 9.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q9,Prompt structure,Give your top insider tip about prompt structure in situation 9.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q9,Prompt structure,Give your top insider tip about prompt structure in situation 9.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q9,Prompt structure,Give your top insider tip about prompt structure in situation 9.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q10,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 10.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q10,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 10.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q10,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 10.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q10,Evidence and retrieval,Give your top insider tip about evidence and retrieval in situation 10.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q11,Model limits,Give your top insider tip about model limits in situation 11.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q11,Model limits,Give your top insider tip about model limits in situation 11.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q11,Model limits,Give your top insider tip about model limits in situation 11.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q11,Model limits,Give your top insider tip about model limits in situation 11.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
+q12,Tool use,Give your top insider tip about tool use in situation 12.,a,Use clear goals and context.,1,Accept clear explanation of goals and context.,"Synthetic workflow fixture, not course evidence",3
+q12,Tool use,Give your top insider tip about tool use in situation 12.,b,Check evidence against reliable sources.,2,Accept source verification and grounded claims.,Synthetic workflow fixture,3
+q12,Tool use,Give your top insider tip about tool use in situation 12.,c,Test assumptions and inspect outputs.,2,"Accept iteration, validation and examples.",Synthetic workflow fixture,3
+q12,Tool use,Give your top insider tip about tool use in situation 12.,d,Protect sensitive information.,1,Accept scoped access and privacy.,Synthetic workflow fixture,3
