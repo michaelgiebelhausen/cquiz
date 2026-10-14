@@ -127,6 +127,54 @@ test("forwarded IP spoofing does not bypass direct-host password throttling", as
     await run.close();
   }
 });
+test("Vercel throttles use platform client IP rather than the shared proxy", async () => {
+  const previous = process.env.VERCEL;
+  process.env.VERCEL = "1";
+  const run = await running({
+    store: new Store(":memory:"),
+    serverless: true,
+    encryptionKey: "b".repeat(64),
+    secure: false,
+  });
+  try {
+    const c = client(run.base);
+    for (let i = 0; i < 8; i++)
+      assert.equal(
+        (
+          await c.request(
+            "/api/admin/login",
+            { password: "wrong" },
+            { "x-real-ip": "192.0.2.1" },
+          )
+        ).status,
+        401,
+      );
+    assert.equal(
+      (
+        await c.request(
+          "/api/admin/login",
+          { password: "wrong" },
+          { "x-real-ip": "192.0.2.1" },
+        )
+      ).status,
+      429,
+    );
+    assert.equal(
+      (
+        await c.request(
+          "/api/admin/login",
+          { password: "security-test-password" },
+          { "x-real-ip": "192.0.2.2" },
+        )
+      ).status,
+      200,
+    );
+  } finally {
+    await run.close();
+    if (previous === undefined) delete process.env.VERCEL;
+    else process.env.VERCEL = previous;
+  }
+});
 test("stale provider test cannot verify or overwrite changed settings", async () => {
   let release;
   const gate = new Promise((r) => (release = r));
